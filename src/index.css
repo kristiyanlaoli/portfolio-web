@@ -33,3 +33,15 @@ body {
 .hamburger-active > span:nth-child(3) {
   @apply -rotate-45;
 }
+
+.waviy span {
+  display: inline-block;
+  animation: flip 3s infinite;
+  animation-delay: calc(0.3s * var(--i));
+}
+@keyframes flip {
+  0%,
+  70% {
+    transform: rotateY(-360deg);
+  }
+}
