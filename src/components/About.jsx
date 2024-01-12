@@ -30,6 +30,7 @@ let About = () => {
           placeat expedita tempora architecto blanditiis optio ab aliquam alias!
           Necessitatibus tempore autem voluptas?
         </p>
+ 
       </div>
     </>
   );
