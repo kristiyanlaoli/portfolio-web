@@ -15,11 +15,12 @@ let About = () => {
           </div>
         </div>
         <div>
-          <div className="lg:grid lg:grid-cols-2 gap-x-6">
-            <div className="w-full p-3 mb-6 bg-slate-700  lg:p-6">
-              <h2 className="font-bold text-2xl text-slate-200 mb-4">
-                Bookoe
-              </h2>
+          <div className="lg:grid lg:grid-cols-3 gap-x-6">
+            <a
+              href="/hai"
+              className="group border-2 rounded-xl hover:scale-[105%] text-left w-full p-3 mb-6   lg:p-6"
+            >
+              <h2 className="font-bold text-2xl text-slate-200 mb-4">Bookoe</h2>
 
               <p className="text-lg text-slate-300 mb-4 line-clamp-2">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
@@ -40,44 +41,18 @@ let About = () => {
                 src="/src/img/projects/project-1.png"
                 alt=""
               />
-              <button className="text-xl font-bold text-slate-300  p-2 border-2 border-slate-300 hover:text-loved hover:border-[#2cfc21]">
-                Read More
+
+              <button className="group  relative  text-lg font-bold text-slate-300  p border-slate-300 hover:text-loved hover:border-[#2cfc21]">
+                See More
+                <span className="absolute -bottom-1 left-0 w-0 h-1 bg-loved transition-all group-hover:w-full"></span>
               </button>
-            </div>
+            </a>
 
-            <div className="w-full p-3 mb-6 bg-slate-700 lg:p-6">
-              <h2 className="font-bold text-2xl text-slate-200 mb-4">
-                My Portfolio Website
-              </h2>
-
-              <p className="text-lg text-slate-300 mb-4 line-clamp-2">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
-                sed fugit vero reprehenderit perspiciatis reiciendis, non porro
-                totam repellendus ipsum? Lorem ipsum dolor sit, amet consectetur
-                adipisicing elit. Natus, provident! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Pariatur, ipsam.
-              </p>
-              <div className="flex mb-4">
-                <ReactIcon />
-                <TailwindIcon />
-                <RouterIcon />
-    
-              </div>
-
-              <img
-                className="mb-4"
-                src="/src/img/projects/project-1.png"
-                alt=""
-              />
-              <button className="text-xl font-bold text-slate-300  p-2 border-2 border-slate-300 hover:text-loved hover:border-[#2cfc21]">
-                Read More
-              </button>
-            </div>
-
-            <div className="w-full p-3 mb-6 bg-slate-700  lg:p-6">
-              <h2 className="font-bold text-2xl text-slate-300 mb-4">
-                Project 1 Yang Kalau Judulnya panjang
-              </h2>
+            <a
+              href="/hai"
+              className="group border-2 rounded-md hover:scale-[105%] text-left w-full p-3 mb-6   lg:p-6"
+            >
+              <h2 className="font-bold text-2xl text-slate-200 mb-4">My Portfolio Website</h2>
 
               <p className="text-lg text-slate-300 mb-4 line-clamp-2">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
@@ -98,10 +73,44 @@ let About = () => {
                 src="/src/img/projects/project-1.png"
                 alt=""
               />
-              <button className="text-xl font-bold text-slate-300  p-2 border-2 border-slate-300 hover:text-loved hover:border-[#2cfc21]">
-                Read More
+
+              <button className="group  relative  text-lg font-bold text-slate-300  p border-slate-300 hover:text-loved hover:border-[#2cfc21]">
+                See More
+                <span className="absolute -bottom-1 left-0 w-0 h-1 bg-loved transition-all group-hover:w-full"></span>
               </button>
-            </div>
+            </a>
+
+            <a
+              href="/hai"
+              className="group border-2 rounded-md hover:scale-[105%] text-left w-full p-3 mb-6   lg:p-6"
+            >
+              <h2 className="font-bold text-2xl text-slate-200 mb-4">Bookoe</h2>
+
+              <p className="text-lg text-slate-300 mb-4 line-clamp-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
+                sed fugit vero reprehenderit perspiciatis reiciendis, non porro
+                totam repellendus ipsum? Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Natus, provident! Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Pariatur, ipsam.
+              </p>
+              <div className="flex mb-4">
+                <ReactIcon />
+                <TailwindIcon />
+                <RouterIcon />
+                <ApiIcon />
+              </div>
+
+              <img
+                className="mb-4"
+                src="/src/img/projects/project-1.png"
+                alt=""
+              />
+
+              <button className="group  relative  text-lg font-bold text-slate-300  p border-slate-300 hover:text-loved hover:border-[#2cfc21]">
+                See More
+                <span className="absolute -bottom-1 left-0 w-0 h-1 bg-loved transition-all group-hover:w-full"></span>
+              </button>
+            </a>
           </div>
         </div>
       </div>

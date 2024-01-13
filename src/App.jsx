@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import TechStack from "./components/TechStack";
 import Projects from "./components/Projects"
+import Writings from "./components/Writings";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <About />
       <Projects/>
+      <Writings/>
       <TechStack />
       <Footer/>
     </>
