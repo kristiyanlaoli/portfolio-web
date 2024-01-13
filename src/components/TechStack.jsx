@@ -1,11 +1,13 @@
 let TechStack = () => {
   return (
     <>
-      <div className="bg-slate-950 px-6 pt-20 -mt-1 pb-24 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
-        <div className="bg-slate-700 w-[150px] rounded-xl mx-auto">
-          <h2 className="font-bold text-xl text-white text-center py-2 mb-10">
-            Tech Stack
-          </h2>
+      <div className="bg-slate-850 px-6 pt-20 -mt-1 pb-24 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
+      <div className="relative bg-loved rounded-lg h-[40px] w-[130px] mx-auto mb-8">
+          <div className="absolute bottom-2 right-2 h-[43px] w-[134px] border-4 border-slate-900 rounded-lg bg-slate-600">
+            <h2 className=" font-bold text-2xl text-center text-loved">
+              Tech Stack
+            </h2>
+          </div>
         </div>
 
         <p className="text-lg text-slate-300 mb-10 ">

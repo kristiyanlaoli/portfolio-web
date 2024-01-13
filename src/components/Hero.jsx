@@ -4,11 +4,13 @@ let Hero = () => {
       <div className="bg-slate-900 px-6 pt-16 pb-28 md:pt-20 lg:pt-28 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
         <div className="md:flex">
           <div className="flex justify-center md:hidden">
-            <img
-              className="w-[260px]"
-              src="/src/img/hero/my-photo.png"
-              alt="Kris"
-            />
+            <div className="relative h-[290px] w-[240px]  bg-loved rounded-3xl ">
+              <img
+                className="absolute bottom-4 right-4 z-10 p-2 pb-0 h-[290px] w-[250px] rounded-3xl bg-slate-700 border-8 border-slate-900"
+                src="/src/img/hero/my-photo.png"
+                alt="Kris"
+              />
+            </div>
           </div>
           <div className="pt-16 md:pt-0 lg:pt-0 ">
             <h2 className="font-bold text-3xl text-white py-2 flex lg:text-5xl animate-fade-up animate-once animate-duration-500 animate-delay-200">
@@ -78,8 +80,14 @@ let Hero = () => {
             </div>
           </div>
 
-          <div className="justify-center hidden md:flex md:justify-end sm:min-w-[300px] sm:h-[300px] lg:min-w-[350px] lg:h-[350px] animate-fade-up animate-once animate-duration-500 animate-delay-700">
-            <img className="pt-2" src="/src/img/hero/my-photo.png" alt="Kris" />
+          <div className="justify-center hidden md:flex md:justify-end sm:min-w-[300px]  sm:h-[300px] lg:min-w-[320px] lg:h-[350px]">
+            <div className="relative h-[290px] w-[240px]  bg-loved rounded-3xl">
+              <img
+                className="absolute bottom-4 right-4 z-10 p-2 pb-0 h-[290px] w-[250px] rounded-3xl bg-slate-700 border-8 border-slate-900 animate-fade-up animate-once animate-duration-400 animate-delay-400"
+                src="/src/img/hero/my-photo.png"
+                alt="Kris"
+              />
+            </div>
           </div>
         </div>
       </div>

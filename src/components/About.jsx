@@ -1,36 +1,30 @@
 let About = () => {
   return (
     <>
-      <div className="bg-slate-800 px-6 pt-20 -mt-1 pb-24 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
-        <div className="bg-slate-700 w-[150px] rounded-xl mx-auto">
-          <h2 className="font-bold text-xl text-white text-center py-2 mb-10">
-            About Me
-          </h2>
+      <div className=" bg-slate-850 px-6 pt-20 -mt-1 pb-24 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
+        <div className="relative bg-loved rounded-lg h-[40px] w-[130px] mx-auto mb-8">
+          <div className="absolute bottom-2 right-2 h-[43px] w-[134px] border-4 border-slate-900 rounded-lg bg-slate-600">
+            <h2 className=" font-bold text-2xl text-center text-loved">
+              About Me
+            </h2>
+          </div>
         </div>
 
         <img
-          className="shadow-lg shadow-black  lg:float-left lg:max-h-[280px]  mb-6 lg:mr-8"
+          className="shadow-lg shadow-black  lg:float-left lg:max-h-[250px] mb-4 mt-2 lg:mr-8"
           src="/src/img/about/fotoku.jpg"
           alt="Kristiyan Laoli"
         />
 
-        <p className="text-lg text-slate-300 ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas velit
-          officia quo sequi laboriosam beatae dolores. Voluptates ullam ut ad.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, nisi?
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut delectus
-          accusamus explicabo corrupti molestias optio suscipit sequi
-          accusantium vel dolore vitae blanditiis dicta sit, veniam saepe
-          doloribus voluptatem est cumque. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Commodi animi nam consequatur at
-          similique maxime quia magni excepturi, sunt recusandae praesentium
-          voluptatem nisi minus cupiditate quae, corrupti impedit ab
-          perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Id ipsa molestiae rerum, libero odit voluptatem, facilis, repellat
-          placeat expedita tempora architecto blanditiis optio ab aliquam alias!
-          Necessitatibus tempore autem voluptas?
+        <p className="text-xl text-slate-300 ">
+          Awalnya, saya belajar fisika di Universitas Gadjah Mada, namun
+          sepanjang perjalanan kuliah, saya menemukan gairah baru dalam dunia
+          komputasi. Terpesona oleh machine learning, tesis saya terfokus pada
+          meramalkan energi ikat inti atom. Setelah kelulusan, saya beralih ke
+          jalur pengembangan web, khususnya sebagai front-end developer. Dengan
+          keahlian dalam JavaScript, HTML, dan CSS, saya menggali potensi
+          kreatif dan teknis untuk menciptakan pengalaman web yang menarik.
         </p>
- 
       </div>
     </>
   );

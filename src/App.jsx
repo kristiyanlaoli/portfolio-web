@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import TechStack from "./components/TechStack";
+import Projects from "./components/Projects"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Projects/>
       <TechStack />
       <Footer/>
     </>

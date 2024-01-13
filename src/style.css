@@ -7,7 +7,7 @@
     @apply bg-gradient-to-r  from-[#7cfc21] to-[#fcf121] text-transparent bg-clip-text;
   }
   .bg-loved {
-    @apply bg-gradient-to-r  from-red-500 to-amber-500;
+    @apply bg-gradient-to-r  from-[#7cfc21] to-[#fcf121] ;
   }
 }
 
@@ -21,3 +21,5 @@ body {
   margin: 0;
   background-color: #0f172a;
 }
+
+
