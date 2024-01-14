@@ -1,9 +1,8 @@
 let TailwindIcon = () => {
   return (
     <svg
-      className="mx-1 hover:fill-white"
+      className="mx-1 fill-slate-500 hover:fill-black dark:fill-[#cbd5e1]  dark:hover:fill-white"
       xmlns="http://www.w3.org/2000/svg"
-      fill="#cbd5e1"
       viewBox="0 4 22 16"
       height="32"
       width="32"

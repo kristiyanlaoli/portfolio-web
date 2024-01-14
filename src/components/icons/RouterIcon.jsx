@@ -1,8 +1,7 @@
 let RouterIcon = () => {
   return (
     <svg
-      className="mx-2 hover:fill-white"
-      fill="#cbd5e1"
+      className="mx-2 fill-slate-500 hover:fill-black dark:fill-[#cbd5e1]  dark:hover:fill-white"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 50 260 20"
       height="32"

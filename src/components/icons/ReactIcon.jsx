@@ -1,8 +1,7 @@
 let ReactIcon = () => {
   return (
     <svg
-      className="mr-1 hover:fill-white"
-      fill="#cbd5e1"
+      className="mr-1 fill-slate-500 hover:fill-black dark:fill-[#cbd5e1]  dark:hover:fill-white"
       title="React"
       alt="React"
       xmlns="http://www.w3.org/2000/svg"

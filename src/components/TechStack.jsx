@@ -1,16 +1,16 @@
 let TechStack = () => {
   return (
-    <div id="techstack">
-      <div className="bg-slate-850 px-6 pt-20 -mt-1 pb-24 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
+    <>
+      <div className="bg-zinc-50 dark:bg-slate-900 px-6 pt-20 -mt-1 pb-24 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
         <div className="relative bg-loved rounded-lg h-[40px] w-[130px] mx-auto mb-8">
-          <div className="absolute bottom-2 right-2 h-[43px] w-[134px] border-4 border-slate-900 rounded-lg bg-slate-600">
-            <h2 className=" font-bold text-2xl text-center text-loved">
+          <div className="absolute bottom-2 right-2 h-[43px] w-[134px] border-4 border-slate-600 dark:border-slate-900 rounded-lg bg-slate-300 dark:bg-slate-600">
+            <h2 className=" font-bold text-2xl text-center dark:text-loved">
               Tech Stack
             </h2>
           </div>
         </div>
 
-        <p className="text-lg text-slate-300 mb-10 ">
+        <p className="text-lg text-slate-600 dark:text-slate-300 mb-10 ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas velit
           officia quo sequi laboriosam beatae dolores. Voluptates ullam ut ad.
         </p>
@@ -23,7 +23,7 @@ let TechStack = () => {
                 alt=""
               />
             </div>
-            <p className="text-slate-300 text-xl font-semibold text-center mt-4">
+            <p className="text-slate-600 dark:text-slate-300 text-xl font-semibold text-center mt-4">
               JavaScript
             </p>
             <div className="bg-slate-600 h-4 rounded-full my-2">
@@ -40,7 +40,7 @@ let TechStack = () => {
                 alt=""
               />
             </div>
-            <p className="text-slate-300 text-xl font-semibold text-center mt-4">
+            <p className="text-slate-600 dark:text-slate-300 text-xl font-semibold text-center mt-4">
               HTML
             </p>
             <div className="bg-slate-600 h-4 rounded-full my-2">
@@ -57,7 +57,7 @@ let TechStack = () => {
                 alt=""
               />
             </div>
-            <p className="text-slate-300 text-xl font-semibold text-center mt-4">
+            <p className="text-slate-600 dark:text-slate-300 text-xl font-semibold text-center mt-4">
               CSS
             </p>
             <div className="bg-slate-600 h-4 rounded-full my-2">
@@ -74,7 +74,7 @@ let TechStack = () => {
                 alt=""
               />
             </div>
-            <p className="text-slate-300 text-xl font-semibold text-center mt-4">
+            <p className="text-slate-600 dark:text-slate-300 text-xl font-semibold text-center mt-4">
               ReactJs
             </p>
             <div className="bg-slate-600 h-4 rounded-full my-2">
@@ -91,7 +91,7 @@ let TechStack = () => {
                 alt=""
               />
             </div>
-            <p className="text-slate-300 text-xl font-semibold text-center mt-4">
+            <p className="text-slate-600 dark:text-slate-300 text-xl font-semibold text-center mt-4">
               NodeJs
             </p>
             <div className="bg-slate-600 h-4 rounded-full my-2">
@@ -108,7 +108,7 @@ let TechStack = () => {
                 alt=""
               />
             </div>
-            <p className="text-slate-300 text-xl font-semibold text-center mt-4">
+            <p className="text-slate-600 dark:text-slate-300 text-xl font-semibold text-center mt-4">
               Tailwinds
             </p>
             <div className="bg-slate-600 h-4 rounded-full my-2">
@@ -125,7 +125,7 @@ let TechStack = () => {
                 alt=""
               />
             </div>
-            <p className="text-slate-300 text-xl font-semibold text-center mt-4">
+            <p className="text-slate-600 dark:text-slate-300 text-xl font-semibold text-center mt-4">
               Python
             </p>
             <div className="bg-slate-600 h-4 rounded-full my-2">
@@ -136,7 +136,7 @@ let TechStack = () => {
           </div>
         </div>
       </div>
-    </div>
+  </>
   );
 };
 
