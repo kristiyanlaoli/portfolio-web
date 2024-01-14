@@ -1,7 +1,7 @@
-import ApiIcon from "../components/icons/ApiIcon";
-import ReactIcon from "../components/icons/ReactIcon";
-import RouterIcon from "../components/icons/RouterIcon";
-import TailwindIcon from "../components/icons/Tailwind";
+import ApiIcon from "../../components/icons/ApiIcon";
+import ReactIcon from "../../components/icons/ReactIcon";
+import RouterIcon from "../../components/icons/RouterIcon";
+import TailwindIcon from "../../components/icons/Tailwind";
 
 let BookoePage = () => {
   return (

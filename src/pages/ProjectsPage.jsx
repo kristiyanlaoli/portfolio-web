@@ -1,11 +1,12 @@
-import ApiIcon from "./icons/ApiIcon";
-import ReactIcon from "./icons/ReactIcon";
-import RouterIcon from "./icons/RouterIcon";
-import TailwindIcon from "./icons/Tailwind";
+import { Link } from "react-router-dom";
+import ApiIcon from "../components/icons/ApiIcon";
+import ReactIcon from "../components/icons/ReactIcon";
+import RouterIcon from "../components/icons/RouterIcon";
+import TailwindIcon from "../components/icons/Tailwind";
 
-let About = () => {
+let ProjectsPage = () => {
   return (
-    <>
+    <div>
       <div className=" bg-slate-850 px-6 pt-20 -mt-1 pb-24 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
         <div className="relative bg-loved rounded-lg h-[40px] w-[130px] mx-auto mb-8">
           <div className="absolute bottom-2 right-2 h-[43px] w-[134px] border-4 border-slate-900 rounded-lg bg-slate-600">
@@ -16,7 +17,7 @@ let About = () => {
         </div>
         <div>
           <div className="md:grid md:grid-cols-2 lg:grid-cols-3 gap-x-6">
-            <a href="/projects/bookoe">
+            <Link to="/projects/bookoe">
               <div className="group border-2 rounded-xl hover:scale-[105%] text-left w-full p-3 mb-6   lg:p-6">
                 <h2 className="font-bold text-2xl text-slate-200 mb-4">
                   Bookoe
@@ -47,7 +48,7 @@ let About = () => {
                   <span className="absolute -bottom-1 left-0 w-0 h-1 bg-loved transition-all group-hover:w-full"></span>
                 </button>
               </div>
-            </a>
+            </Link>
             <a href="/project2">
               <div
                 href="/hai"
@@ -121,8 +122,8 @@ let About = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
-export default About;
+export default ProjectsPage;

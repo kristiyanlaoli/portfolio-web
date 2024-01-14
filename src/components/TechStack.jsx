@@ -1,8 +1,8 @@
 let TechStack = () => {
   return (
-    <>
+    <div id="techstack">
       <div className="bg-slate-850 px-6 pt-20 -mt-1 pb-24 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
-      <div className="relative bg-loved rounded-lg h-[40px] w-[130px] mx-auto mb-8">
+        <div className="relative bg-loved rounded-lg h-[40px] w-[130px] mx-auto mb-8">
           <div className="absolute bottom-2 right-2 h-[43px] w-[134px] border-4 border-slate-900 rounded-lg bg-slate-600">
             <h2 className=" font-bold text-2xl text-center text-loved">
               Tech Stack
@@ -75,7 +75,7 @@ let TechStack = () => {
               />
             </div>
             <p className="text-slate-300 text-xl font-semibold text-center mt-4">
-             ReactJs
+              ReactJs
             </p>
             <div className="bg-slate-600 h-4 rounded-full my-2">
               <div className="w-[90%] bg-[#2cfc21] text-xs font-medium text-black text-center p-0.5 leading-none rounded-full">
@@ -92,7 +92,7 @@ let TechStack = () => {
               />
             </div>
             <p className="text-slate-300 text-xl font-semibold text-center mt-4">
-             NodeJs
+              NodeJs
             </p>
             <div className="bg-slate-600 h-4 rounded-full my-2">
               <div className="w-[90%] bg-[#2cfc21] text-xs font-medium text-black text-center p-0.5 leading-none rounded-full">
@@ -136,7 +136,7 @@ let TechStack = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
