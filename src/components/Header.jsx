@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 let Header = () => {
   return (
     <>
-      <header className="bg-slate-900  sm:flex sm:justify-between sm:items-center sm:px-24 md:px-32 lg:px-36 xl:px-44">
+      <header className="bg-slate-900 border-b-[1px] border-slate-500 sm:flex sm:justify-between sm:items-center sm:px-24 md:px-32 lg:px-36 xl:px-44">
         <h1 className="font-bold text-4xl text-loved text-center py-2">
           <a href="/">Kris</a>
         </h1>

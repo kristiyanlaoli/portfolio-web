@@ -7,18 +7,20 @@ let BookoePage = () => {
   return (
     <>
       <div className=" bg-slate-850 px-6 pt-20 -mt-1 pb-24 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
-        <h2 className=" mb-6">
+        <img src="/src/img/projects/project-1.png" alt="" />
+        <h2 className=" my-6">
           <span className="font-bold text-3xl text-loved">Bookoe</span>
         </h2>
 
         <h3 className="font-bold text-white text-xl">Description</h3>
 
-        <p className="text-xl text-slate-300 ">
-          Bookoe is a website that showcases a list of books ranging from the
-          latest to top picks.
+        <p className="text-xl text-slate-300 tracking-wider leading-relaxed">
+          Bookoe is a website that displays book lists. The list of books
+          displayed can be from the latest or top picks. On a book page, the
+          title, synopsis, author and publication date will be displayed.
         </p>
         <h3 className="font-bold text-white text-xl mt-8">Background</h3>
-        <p className="text-xl text-slate-300 ">
+        <p className="text-xl text-slate-300 tracking-wider leading-relaxed">
           Bookoe is my first project as I delve into the realm of front-end
           development. This project was assigned by the Codemasters.ID Bootcamp
           to assess the front-end learning outcomes of each student after
@@ -34,7 +36,7 @@ let BookoePage = () => {
           <RouterIcon />
           <ApiIcon />
         </div>
-        <p className="text-xl text-slate-300 ">
+        <p className="text-xl text-slate-300 tracking-wider leading-relaxed">
           Teach Stack Used in this project include ReactJs, Tailwind CSS, React
           Router, and an API.
           <br />

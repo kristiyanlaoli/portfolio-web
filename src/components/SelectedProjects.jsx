@@ -7,7 +7,7 @@ import TailwindIcon from "./icons/Tailwind";
 let SelectedProjects = () => {
   return (
     <div id="projects">
-      <div className=" bg-slate-850 px-6 pt-20 -mt-1 pb-24 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
+      <div className=" bg-slate-900 px-6 pt-20 -mt-1 pb-24 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
         <div className="relative bg-loved rounded-lg h-[40px] w-[213px] mx-auto mb-8">
           <div className="absolute bottom-2 right-2 h-[43px] w-[220px] border-4 border-slate-900 rounded-lg bg-slate-600">
             <h2 className=" font-bold text-2xl text-center text-loved">
@@ -18,15 +18,14 @@ let SelectedProjects = () => {
 
         <div className="md:grid md:grid-cols-2 lg:grid-cols-3 gap-x-6">
           <Link to="/projects/bookoe">
-            <div className="group border-2 rounded-xl hover:scale-[105%] text-left w-full p-3 mb-6   lg:p-6">
+            <div className="group border-2 rounded-xl hover:scale-[105%] text-left w-full p-3 mb-6  lg:p-6 ">
               <h2 className="font-bold text-2xl text-slate-200 mb-4">Bookoe</h2>
 
-              <p className="text-lg text-slate-300 mb-4 line-clamp-2">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
-                sed fugit vero reprehenderit perspiciatis reiciendis, non porro
-                totam repellendus ipsum? Lorem ipsum dolor sit, amet consectetur
-                adipisicing elit. Natus, provident! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Pariatur, ipsam.
+              <p className="text-lg text-slate-300 mb-4 line-clamp-3">
+                Bookoe is a website that displays book lists. The list of books
+                displayed can be from the latest or top picks. On a book page,
+                the title, synopsis, author and publication date will be
+                displayed.
               </p>
               <div className="flex mb-4">
                 <ReactIcon />
@@ -89,7 +88,7 @@ let SelectedProjects = () => {
             >
               <h2 className="font-bold text-2xl text-slate-200 mb-4">Bookoe</h2>
 
-              <p className="text-lg text-slate-300 mb-4 line-clamp-2">
+              <p className="text-lg text-slate-300 mb-4 line-clamp-3">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
                 sed fugit vero reprehenderit perspiciatis reiciendis, non porro
                 totam repellendus ipsum? Lorem ipsum dolor sit, amet consectetur
