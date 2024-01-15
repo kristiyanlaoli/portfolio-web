@@ -51,11 +51,17 @@ let Header = () => {
                 About
               </Link>
             </li>
-            <button className="bg-green-200" onClick={handleThemeChange}>
-              Dark
-            </button>
           </ul>
         </nav>
+        <button className=" scale-[80%]" onClick={handleThemeChange}>
+          <img
+            className=""
+            src={`/src/img/theme/${
+              theme === "dark" ? "light-sun.gif" : "dark-bat.gif"
+            }`}
+            alt=""
+          />
+        </button>
       </header>
     </>
   );

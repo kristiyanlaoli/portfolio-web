@@ -3,7 +3,7 @@ import HomePage from "./pages/HomePage.jsx";
 import LayoutPage from "./pages/LayoutPage.jsx";
 import NotFoundPage from "./pages/NotFoundPage.jsx";
 import BookoePage from "./pages/projects/BookoePage.jsx";
-import About from "./components/About.jsx";
+import About from "./pages/About.jsx";
 import ProjectsPage from "./pages/ProjectsPage.jsx";
 
 const router = createBrowserRouter([

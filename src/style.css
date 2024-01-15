@@ -12,6 +12,12 @@
   .bg-loved {
     @apply bg-gradient-to-r  from-[#7cfc21] to-[#fcf121];
   }
+  .text-cool {
+    @apply text-xl text-slate-600 dark:text-slate-300 tracking-wider leading-relaxed;
+  }
+  .h-cool {
+    @apply border-l-4 border-[#2cfc21] pl-2 my-2 font-bold text-black dark:text-white text-xl
+  }
 }
 
 /* * {

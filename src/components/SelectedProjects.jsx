@@ -7,7 +7,7 @@ import TailwindIcon from "./icons/Tailwind";
 let SelectedProjects = () => {
   return (
     <div id="projects">
-      <div className=" bg-zinc-50 dark:bg-slate-900 px-6 pt-20 -mt-1 pb-24 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
+      <div className=" bg-zinc-50 dark:bg-slate-900 px-6 pt-20 pb-24 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
         <div className="relative bg-loved rounded-lg h-[40px] w-[213px] mx-auto mb-8">
           <div className="absolute bottom-2 right-2 h-[43px] w-[220px] border-4 border-slate-600 dark:border-slate-900 rounded-lg bg-slate-300 dark:bg-slate-600">
             <h2 className=" font-bold text-2xl text-center dark:text-loved">

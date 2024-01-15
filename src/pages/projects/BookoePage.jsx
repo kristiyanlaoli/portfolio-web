@@ -9,34 +9,35 @@ let BookoePage = () => {
       <div className=" bg-slate-850 px-6 pt-20 -mt-1 pb-24 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
         <img src="/src/img/projects/project-1.png" alt="" />
         <h2 className=" my-6">
-          <span className="font-bold text-3xl text-loved">Bookoe</span>
+          <span className="font-bold text-3xl text-loved-light dark:text-loved">
+            Bookoe
+          </span>
         </h2>
 
-        <h3 className="font-bold text-white text-xl">Description</h3>
+        <h3 className="h-cool">Description</h3>
 
-        <p className="text-xl text-slate-300 tracking-wider leading-relaxed">
+        <p className="text-cool">
           Bookoe is a website that displays book lists. The list of books
           displayed can be from the latest or top picks. On a book page, the
           title, synopsis, author and publication date will be displayed.
         </p>
-        <h3 className="font-bold text-white text-xl mt-8">Background</h3>
-        <p className="text-xl text-slate-300 tracking-wider leading-relaxed">
+        <br />
+        <h3 className="h-cool">Background</h3>
+        <p className="text-cool">
           Bookoe is my first project as I delve into the realm of front-end
           development. This project was assigned by the Codemasters.ID Bootcamp
           to assess the front-end learning outcomes of each student after
           approximately 5 weeks of learning.
         </p>
-
-        <p className="font-bold text-white text-xl mt-8 mb-2">
-          Tech Stack Used
-        </p>
+        <br />
+        <p className="h-cool">Tech Stack Used</p>
         <div className="flex mb-6">
           <ReactIcon />
           <TailwindIcon />
           <RouterIcon />
           <ApiIcon />
         </div>
-        <p className="text-xl text-slate-300 tracking-wider leading-relaxed">
+        <p className="text-cool">
           Teach Stack Used in this project include ReactJs, Tailwind CSS, React
           Router, and an API.
           <br />
