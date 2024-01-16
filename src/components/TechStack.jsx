@@ -18,7 +18,7 @@ let TechStack = () => {
             <div className="flex justify-center">
               <img
                 className="w-[50px] h-[50px]"
-                src="/src/img/techstack/js.png"
+                src="/img/techstack/js.png"
                 alt=""
               />
             </div>
@@ -35,7 +35,7 @@ let TechStack = () => {
             <div className="flex justify-center">
               <img
                 className="w-[50px] h-[50px]"
-                src="/src/img/techstack/html.png"
+                src="/img/techstack/html.png"
                 alt=""
               />
             </div>
@@ -52,7 +52,7 @@ let TechStack = () => {
             <div className="flex justify-center">
               <img
                 className="w-[50px] h-[50px]"
-                src="/src/img/techstack/css.png"
+                src="/img/techstack/css.png"
                 alt=""
               />
             </div>
@@ -69,7 +69,7 @@ let TechStack = () => {
             <div className="flex justify-center">
               <img
                 className="w-[50px] h-[50px]"
-                src="/src/img/techstack/reactjs.png"
+                src="/img/techstack/reactjs.png"
                 alt=""
               />
             </div>
@@ -86,7 +86,7 @@ let TechStack = () => {
             <div className="flex justify-center">
               <img
                 className="w-[50px] h-[50px]"
-                src="/src/img/techstack/nodejs.png"
+                src="/img/techstack/nodejs.png"
                 alt=""
               />
             </div>
@@ -103,7 +103,7 @@ let TechStack = () => {
             <div className="flex justify-center">
               <img
                 className="w-[50px] h-[50px]"
-                src="/src/img/techstack/tailwind-css.png"
+                src="/img/techstack/tailwind-css.png"
                 alt=""
               />
             </div>
@@ -120,7 +120,7 @@ let TechStack = () => {
             <div className="flex justify-center">
               <img
                 className="w-[50px] h-[50px]"
-                src="/src/img/techstack/python.png"
+                src="/img/techstack/python.png"
                 alt=""
               />
             </div>

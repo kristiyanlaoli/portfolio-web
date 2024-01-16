@@ -38,7 +38,7 @@ let SelectedProjects = () => {
 
               <img
                 className="mb-4"
-                src="/src/img/projects/project-1.png"
+                src="/img/projects/project-1.png"
                 alt=""
               />
 
@@ -69,7 +69,7 @@ let SelectedProjects = () => {
 
               <img
                 className="mb-4"
-                src="/src/img/projects/project-1.png"
+                src="/img/projects/project-1.png"
                 alt=""
               />
 
@@ -100,7 +100,7 @@ let SelectedProjects = () => {
 
               <img
                 className="mb-4"
-                src="/src/img/projects/project-1.png"
+                src="/img/projects/project-1.png"
                 alt=""
               />
 

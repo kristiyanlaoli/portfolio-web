@@ -12,7 +12,7 @@ let About = () => {
 
         <img
           className="shadow-lg shadow-black  lg:float-left lg:max-h-[250px] mb-4 mt-2 lg:mr-8"
-          src="/src/img/about/fotoku.jpg"
+          src="/img/about/fotoku.jpg"
           alt="Kristiyan Laoli"
         />
 
