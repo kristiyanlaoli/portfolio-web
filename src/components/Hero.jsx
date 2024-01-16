@@ -7,7 +7,7 @@ let Hero = () => {
             <div className="relative h-[290px] w-[240px]  bg-loved rounded-3xl ">
               <img
                 className="absolute bottom-4 right-4 z-10 p-2 pb-0 h-[290px] w-[250px] rounded-3xl bg-slate-300 dark:bg-slate-700 border-8 border-slate-600 dark:border-slate-900"
-                src="/img/hero/my-photo.png"
+                src="/src/img/hero/my-photo.png"
                 alt="Kris"
               />
             </div>
@@ -96,7 +96,7 @@ let Hero = () => {
             <div className="relative h-[290px] w-[240px]  bg-loved rounded-3xl">
               <img
                 className="absolute bottom-4 right-4 z-10 p-2 pb-0 h-[290px] w-[250px] rounded-3xl bg-slate-300 dark:bg-slate-700 border-8 border-slate-600 dark:border-slate-900 animate-fade-up animate-once animate-duration-400 animate-delay-400"
-                src="/img/hero/my-photo.png"
+                src="/src/img/hero/my-photo.png"
                 alt="Kris"
               />
             </div>

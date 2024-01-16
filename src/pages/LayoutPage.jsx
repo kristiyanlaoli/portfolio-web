@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
-import Header from "/components/Header.jsx";
-import Footer from "/components/Footer.jsx";
-import ScrollToTop from "/components/utils/ScrollToTop.jsx";
+import Header from "/src/components/Header.jsx";
+import Footer from "/src/components/Footer.jsx";
+import ScrollToTop from "/src/components/utils/ScrollToTop.jsx";
 
 const LayoutPage = () => {
   return (
