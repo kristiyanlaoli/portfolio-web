@@ -1,8 +1,8 @@
 // import SingleBookPage from "./SingleBookPage";
 import SelectedProjects from "../components/SelectedProjects";
 import TechStack from "../components/TechStack";
-import Writings from "../components/Writings";
-import Hero from "/src/components/Hero.jsx";
+import Writings from "/components/Writings.jsx";
+import Hero from "/components/Hero.jsx";
 
 function HomePage() {
   return (

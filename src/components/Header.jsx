@@ -89,7 +89,7 @@ let Header = () => {
           <button className="scale-[90%]" onClick={handleThemeChange}>
             <img
               className=""
-              src={`/src/img/theme/${
+              src={`/img/theme/${
                 theme === "dark" ? "light-sun.gif" : "dark-bat.gif"
               }`}
               alt=""
