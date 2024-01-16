@@ -1,7 +1,7 @@
 let TechStack = () => {
   return (
     <>
-      <div className="bg-zinc-50 dark:bg-slate-900 px-6 pt-20 -mt-1 pb-24 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
+      <div className="bg-zinc-50 dark:bg-slate-900 px-6 pt-20 pb-24 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
         <div className="relative bg-loved rounded-lg h-[40px] w-[130px] mx-auto mb-8">
           <div className="absolute bottom-2 right-2 h-[43px] w-[134px] border-4 border-slate-600 dark:border-slate-900 rounded-lg bg-slate-300 dark:bg-slate-600">
             <h2 className=" font-bold text-2xl text-center dark:text-loved">
@@ -10,9 +10,8 @@ let TechStack = () => {
           </div>
         </div>
 
-        <p className="text-lg text-slate-600 dark:text-slate-300 mb-10 ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas velit
-          officia quo sequi laboriosam beatae dolores. Voluptates ullam ut ad.
+        <p className="text-lg text-slate-600 dark:text-slate-300 text-center mb-10 ">
+          The skills, tools and technologies I am really good at:
         </p>
         <div className="flex justify-between flex-wrap gap-4 gap-y-16">
           <div className="w-[90px] h-[90px]">
@@ -136,7 +135,7 @@ let TechStack = () => {
           </div>
         </div>
       </div>
-  </>
+    </>
   );
 };
 
