@@ -43,7 +43,7 @@ let Header = () => {
 
   return (
     <>
-      <header className=" dark:bg-slate-900 bg-zinc-50 border-b-[1px] border-slate-500 px-6  sm:px-24 md:px-32 lg:px-36 xl:px-44">
+      <header className=" dark:bg-slate-900 bg-zinc-50 border-b-[1px] border-slate-500 px-6  sm:px-24 md:px-32 lg:px-36 xl:px-44 fixed top-0 left-0 w-full z-30">
         <div className="flex justify-between ">
           <nav id="nav-menu">
             <ul className="font-bold text-sm sm:text-lg dark:text-slate-300 flex justify-center py-4">

@@ -1,7 +1,7 @@
 let Hero = () => {
   return (
     <>
-      <div className="bg-zinc-50 dark:bg-slate-900 px-6 pt-16 pb-28 md:pt-20 lg:pt-28 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
+      <div className="bg-zinc-50 dark:bg-slate-900 px-6 pt-28 pb-28 md:pt-32 lg:pt-40 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
         <div className="md:flex">
           <div className="flex justify-center md:hidden">
             <div className="relative h-[290px] w-[240px]  bg-loved rounded-3xl ">

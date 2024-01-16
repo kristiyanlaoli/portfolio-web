@@ -1,7 +1,7 @@
 let About = () => {
   return (
     <>
-      <div className=" bg-slate-850 px-6 pt-20 -mt-1 pb-24 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
+      <div className=" bg-slate-850 px-6 pt-24 -mt-1 pb-24 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
         <div className="relative bg-loved rounded-lg h-[40px] w-[130px] mx-auto mb-8">
           <div className="absolute bottom-2 right-2 h-[43px] w-[134px] border-4 border-slate-600 dark:border-slate-900 rounded-lg bg-slate-300 dark:bg-slate-600">
             <h2 className=" font-bold text-2xl text-center dark:text-loved">
