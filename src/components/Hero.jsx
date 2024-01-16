@@ -47,7 +47,7 @@ let Hero = () => {
             <div className="flex items-center animate-fade-up animate-once animate-duration-500 animate-delay-700">
               <a href="https://github.com/kristiyanlaoli/" target="blank">
                 <svg
-                  className="fill-slate-600 dark:fill-slate-300 hover:fill-orange-500 duration-300"
+                  className="fill-slate-600 dark:fill-slate-300 hover:fill-orange-500 dark:hover:fill-orange-500 duration-300"
                   width="32"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -60,7 +60,7 @@ let Hero = () => {
                 target="blank"
               >
                 <svg
-                  className="fill-slate-600 dark:fill-slate-300 hover:fill-pink-600 ml-3 duration-300"
+                  className="fill-slate-600 dark:fill-slate-300 hover:fill-pink-600 dark:hover:fill-pink-600  ml-3 duration-300"
                   width="28"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 448 512"
@@ -73,7 +73,7 @@ let Hero = () => {
                 target="blank"
                 href="https://drive.google.com/file/d/1lMY8ILOduNV0HvbWzQvUbhMBll_NwOrA/view?usp=drive_link"
               >
-                <div className="ml-4 bg-slate-600 dark:bg-slate-300 flex items-center rounded-md px-1 hover:bg-[#2cfc21]">
+                <div className="ml-4 bg-slate-600 dark:bg-slate-300 flex items-center rounded-md px-1 hover:bg-[#2cfc21] dark:hover:bg-[#2cfc21]">
                   <svg
                     className="fill-white dark:fill-black"
                     xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,9 @@ let Hero = () => {
                     <path d="M439.91 112h-23.82a.09.09 0 0 0-.09.09V416a32 32 0 0 0 32 32 32 32 0 0 0 32-32V152.09A40.09 40.09 0 0 0 439.91 112Z" />
                     <path d="M384 416V72a40 40 0 0 0-40-40H72a40 40 0 0 0-40 40v352a56 56 0 0 0 56 56h342.85a1.14 1.14 0 0 0 1.15-1.15 1.14 1.14 0 0 0-.85-1.1A64.11 64.11 0 0 1 384 416ZM96 128a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v64a16 16 0 0 1-16 16h-64a16 16 0 0 1-16-16Zm208 272H112.45c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 112 368h191.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 400Zm0-64H112.45c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 112 304h191.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 336Zm0-64H112.45c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 112 240h191.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 272Zm0-64h-63.55c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 240 176h63.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 208Zm0-64h-63.55c-8.61 0-16-6.62-16.43-15.23A16 16 0 0 1 240 112h63.55c8.61 0 16 6.62 16.43 15.23A16 16 0 0 1 304 144Z" />
                   </svg>
-                  <p className="text-white dark:text-black font-bold text-lg">Resume</p>
+                  <p className="text-white dark:text-black font-bold text-lg">
+                    Resume
+                  </p>
                 </div>
               </a>
             </div>

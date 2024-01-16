@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+li {
+  cursor: pointer;
+}
+
 @layer components {
   .text-loved {
     @apply bg-gradient-to-r  from-[#7cfc21] to-[#fcf121] text-transparent bg-clip-text;
@@ -21,17 +32,4 @@
 }
 
 
-/* * {
-  border: 1px dotted red;
-} */
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: "Inter", sans-serif;
-}
-
-li {
-  cursor: pointer;
-}
