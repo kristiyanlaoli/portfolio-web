@@ -17,7 +17,7 @@ let ProjectsPage = () => {
         </div>
 
         <div className="md:grid md:grid-cols-2 lg:grid-cols-3 gap-x-6">
-          <Link to="/projects/bookoe">
+          <Link to="/bookoe">
             <div className="group border-2 border-slate-600 dark:border-slate-200 rounded-xl hover:scale-[105%] text-left w-full p-3 mb-6  lg:p-6 ">
               <h2 className="font-bold text-2xl text-slate-700 dark:text-slate-200 mb-4">
                 Bookoe
@@ -36,11 +36,7 @@ let ProjectsPage = () => {
                 <ApiIcon />
               </div>
 
-              <img
-                className="mb-4"
-                src="/img/projects/project-1.png"
-                alt=""
-              />
+              <img className="mb-4" src="/img/projects/project-1.png" alt="" />
 
               <button className="group  relative  text-lg font-bold text-slate-500 dark:text-slate-300  dark:hover:text-loved hover:border-[#2cfc21]">
                 See More
@@ -67,11 +63,7 @@ let ProjectsPage = () => {
                 <ApiIcon />
               </div>
 
-              <img
-                className="mb-4"
-                src="/img/projects/project-1.png"
-                alt=""
-              />
+              <img className="mb-4" src="/img/projects/project-1.png" alt="" />
 
               <button className="group  relative  text-lg font-bold text-slate-600 dark:text-slate-300  dark:hover:text-loved hover:border-[#2cfc21]">
                 See More
@@ -98,11 +90,7 @@ let ProjectsPage = () => {
                 <ApiIcon />
               </div>
 
-              <img
-                className="mb-4"
-                src="/img/projects/project-1.png"
-                alt=""
-              />
+              <img className="mb-4" src="/img/projects/project-1.png" alt="" />
 
               <button className="group  relative  text-lg font-bold text-slate-600 dark:text-slate-300  dark:hover:text-loved hover:border-[#2cfc21]">
                 See More
