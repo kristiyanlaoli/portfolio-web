@@ -24,7 +24,7 @@ const router = createBrowserRouter([
         Component: ProjectsPage,
       },
       {
-        path: "bookoe",
+        path: "projects/bookoe",
         Component: BookoePage,
       },
     ],
