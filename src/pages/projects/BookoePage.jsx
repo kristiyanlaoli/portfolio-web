@@ -2,17 +2,30 @@ import ApiIcon from "../../components/icons/ApiIcon";
 import ReactIcon from "../../components/icons/ReactIcon";
 import RouterIcon from "../../components/icons/RouterIcon";
 import TailwindIcon from "../../components/icons/Tailwind";
+import LinkIcon from "../../components/icons/LinkIcon";
 
 let BookoePage = () => {
   return (
     <>
       <div className=" bg-slate-850 px-6 pt-20 -mt-1 pb-24 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
         <img src="/img/projects/project-1.png" alt="" />
-        <h2 className=" my-6">
+        <h2 className=" mt-6 mb-2">
           <span className="font-bold text-3xl text-loved-light dark:text-loved">
             Bookoe
           </span>
         </h2>
+
+        <p className="flex group mb-6 text-cool ">
+          Open live site:
+          <a
+            className="flex  relative border-b-2 group"
+            target="blank"
+            href="https://bookoe-web.vercel.app/"
+          >
+            <LinkIcon /> Bookoe
+            <span className="absolute -bottom-[2px] left-0 w-0 h-[2px] bg-loved transition-all group-hover:w-full"></span>
+          </a>
+        </p>
 
         <h3 className="h-cool">Description</h3>
 
