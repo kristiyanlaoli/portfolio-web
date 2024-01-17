@@ -22,10 +22,12 @@ const router = createBrowserRouter([
       {
         path: "projects",
         Component: ProjectsPage,
-      },
-      {
-        path: "projects/bookoe",
-        Component: BookoePage,
+        children: [
+          {
+            path: "/bookoe",
+            Component: BookoePage,
+          },
+        ],
       },
     ],
   },
