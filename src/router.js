@@ -2,9 +2,11 @@ import { createBrowserRouter } from "react-router-dom";
 import HomePage from "./pages/HomePage.jsx";
 import LayoutPage from "./pages/LayoutPage.jsx";
 import NotFoundPage from "./pages/NotFoundPage.jsx";
-import BookoePage from "./pages/projects/BookoePage.jsx";
 import About from "./pages/About.jsx";
 import ProjectsPage from "./pages/ProjectsPage.jsx";
+import BookoePage from "./pages/projects/BookoePage.jsx";
+import ResistorCalculatorPage from "./pages/projects/ResistorCalculatorPage.jsx";
+import PortfolioWebPage from "./pages/projects/PortfolioWebPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +28,14 @@ const router = createBrowserRouter([
       {
         path: "bookoe",
         Component: BookoePage,
+      },
+      {
+        path: "resistor-calculator",
+        Component: ResistorCalculatorPage,
+      },
+      {
+        path: "portfolio-web",
+        Component: PortfolioWebPage,
       },
     ],
   },

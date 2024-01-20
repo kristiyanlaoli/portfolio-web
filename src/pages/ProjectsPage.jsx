@@ -44,26 +44,28 @@ let ProjectsPage = () => {
               </button>
             </div>
           </Link>
-          <Link to="/bookoe">
+          <Link to="/resistor-calculator">
             <div className="group border-2 border-slate-600 dark:border-slate-200 rounded-xl hover:scale-[105%] text-left w-full p-3 mb-6  lg:p-6 ">
               <h2 className="font-bold text-2xl dark:text-slate-200 mb-4">
-                Bookoe
+                Resistor Calculator
               </h2>
 
               <p className="text-lg text-slate-600 dark:text-slate-300 mb-4 line-clamp-3">
-                Bookoe is a website that displays book lists. The list of books
-                displayed can be from the latest or top picks. On a book page,
-                the title, synopsis, author and publication date will be
-                displayed.
+                This is a simple website that allows us to calculate the
+                resistance of a resistor. This can calculate the resistance of a
+                resistor with variaty bands (3 bands, 4 bands, and 5 bands).
+                This website uses ReactJs and TailwindCSS.
               </p>
               <div className="flex mb-4">
                 <ReactIcon />
                 <TailwindIcon />
-                <RouterIcon />
-                <ApiIcon />
               </div>
 
-              <img className="mb-4" src="/img/projects/project-1.png" alt="" />
+              <img
+                className="mb-4"
+                src="/img/projects/resistor-calculator.png"
+                alt=""
+              />
 
               <button className="group  relative  text-lg font-bold text-slate-600 dark:text-slate-300  dark:hover:text-loved hover:border-[#2cfc21]">
                 See More
@@ -71,26 +73,27 @@ let ProjectsPage = () => {
               </button>
             </div>
           </Link>
-          <Link to="/bookoe">
+          <Link to="/portfolio-web">
             <div className="group border-2 border-slate-600 dark:border-slate-200 rounded-xl hover:scale-[105%] text-left w-full p-3 mb-6  lg:p-6 ">
               <h2 className="font-bold text-2xl dark:text-slate-200 mb-4">
-                Bookoe
+                Portfolio Web
               </h2>
 
               <p className="text-lg text-slate-600 dark:text-slate-300 mb-4 line-clamp-3">
-                Bookoe is a website that displays book lists. The list of books
-                displayed can be from the latest or top picks. On a book page,
-                the title, synopsis, author and publication date will be
-                displayed.
+                This is my portfolio web or personal web that contains
+                information about me, my skills, my project, or my blog.
               </p>
               <div className="flex mb-4">
                 <ReactIcon />
                 <TailwindIcon />
                 <RouterIcon />
-                <ApiIcon />
               </div>
 
-              <img className="mb-4" src="/img/projects/project-1.png" alt="" />
+              <img
+                className="mb-4"
+                src="/img/projects/portfolio-web.png"
+                alt=""
+              />
 
               <button className="group  relative  text-lg font-bold text-slate-600 dark:text-slate-300  dark:hover:text-loved hover:border-[#2cfc21]">
                 See More
@@ -99,9 +102,6 @@ let ProjectsPage = () => {
             </div>
           </Link>
         </div>
-        <button className="font-bold text-lg text-slate-600 dark:text-slate-300 p-2 border-2 border-slate-600 dark:border-slate-200 rounded-md hover:scale-[110%] ">
-          <Link to="/projects">See more project</Link>
-        </button>
       </div>
     </div>
   );
