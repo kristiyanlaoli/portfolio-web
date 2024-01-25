@@ -71,7 +71,7 @@ let Hero = () => {
               <a
                 className=""
                 target="blank"
-                href="https://drive.google.com/file/d/1lMY8ILOduNV0HvbWzQvUbhMBll_NwOrA/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1WsTPTmAmSa41WUHqXwJDeiE5eWj6vDnx/view?usp=sharing"
               >
                 <div className="ml-4 bg-slate-600 dark:bg-slate-300 flex items-center rounded-md px-1 hover:bg-[#2cfc21] dark:hover:bg-[#2cfc21]">
                   <svg
