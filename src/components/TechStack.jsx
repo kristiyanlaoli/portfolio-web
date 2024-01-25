@@ -22,15 +22,12 @@ let TechStack = () => {
                 alt=""
               />
             </div>
-            <p className="text-slate-600 dark:text-slate-300 text-xl font-semibold text-center mt-4">
+            <p className="text-slate-600 dark:text-slate-300 text-base font-semibold text-center mt-4">
               JavaScript
             </p>
-            <div className="bg-slate-600 h-4 rounded-full my-2">
-              <div className="w-[90%] bg-[#2cfc21] text-xs font-medium text-black text-center p-0.5 leading-none rounded-full">
-                90%
-              </div>
-            </div>
+           
           </div>
+
           <div className="w-[90px] h-[90px]">
             <div className="flex justify-center">
               <img
@@ -39,49 +36,40 @@ let TechStack = () => {
                 alt=""
               />
             </div>
-            <p className="text-slate-600 dark:text-slate-300 text-xl font-semibold text-center mt-4">
+            <p className="text-slate-600 dark:text-slate-300 text-base font-semibold text-center mt-4">
               HTML
             </p>
-            <div className="bg-slate-600 h-4 rounded-full my-2">
-              <div className="w-[90%] bg-[#2cfc21] text-xs font-medium text-black text-center p-0.5 leading-none rounded-full">
-                90%
-              </div>
-            </div>
+           
           </div>
+
           <div className="w-[90px] h-[90px]">
             <div className="flex justify-center">
               <img
-                className="w-[50px] h-[50px]"
+                className="w-[57px] h-[50px]"
                 src="/img/techstack/css.png"
                 alt=""
               />
             </div>
-            <p className="text-slate-600 dark:text-slate-300 text-xl font-semibold text-center mt-4">
+            <p className="text-slate-600 dark:text-slate-300 text-base font-semibold text-center mt-4">
               CSS
             </p>
-            <div className="bg-slate-600 h-4 rounded-full my-2">
-              <div className="w-[90%] bg-[#2cfc21] text-xs font-medium text-black text-center p-0.5 leading-none rounded-full">
-                90%
-              </div>
-            </div>
+           
           </div>
+
           <div className="w-[90px] h-[90px]">
-            <div className="flex justify-center">
+            <div className="flex justify-center h-[50px]">
               <img
-                className="w-[50px] h-[50px]"
+                className="w-[50px] h-[46px]"
                 src="/img/techstack/reactjs.png"
                 alt=""
               />
             </div>
-            <p className="text-slate-600 dark:text-slate-300 text-xl font-semibold text-center mt-4">
-              ReactJs
+            <p className="text-slate-600 dark:text-slate-300 text-base font-semibold text-center mt-4">
+              React.js
             </p>
-            <div className="bg-slate-600 h-4 rounded-full my-2">
-              <div className="w-[90%] bg-[#2cfc21] text-xs font-medium text-black text-center p-0.5 leading-none rounded-full">
-                90%
-              </div>
-            </div>
+            
           </div>
+
           <div className="w-[90px] h-[90px]">
             <div className="flex justify-center">
               <img
@@ -90,32 +78,54 @@ let TechStack = () => {
                 alt=""
               />
             </div>
-            <p className="text-slate-600 dark:text-slate-300 text-xl font-semibold text-center mt-4">
-              NodeJs
+            <p className="text-slate-600 dark:text-slate-300 text-base font-semibold text-center mt-4">
+              Node.js
             </p>
-            <div className="bg-slate-600 h-4 rounded-full my-2">
-              <div className="w-[90%] bg-[#2cfc21] text-xs font-medium text-black text-center p-0.5 leading-none rounded-full">
-                90%
-              </div>
-            </div>
+           
           </div>
+
           <div className="w-[90px] h-[90px]">
-            <div className="flex justify-center">
+            <div className="flex justify-center w-[90px] h-[50px]">
               <img
-                className="w-[50px] h-[50px]"
+                className="w-[50px] h-[30px]"
                 src="/img/techstack/tailwind-css.png"
                 alt=""
               />
             </div>
-            <p className="text-slate-600 dark:text-slate-300 text-xl font-semibold text-center mt-4">
+            <p className="text-slate-600 dark:text-slate-300 text-base font-semibold text-center mt-4">
               Tailwinds
             </p>
-            <div className="bg-slate-600 h-4 rounded-full my-2">
-              <div className="w-[90%] bg-[#2cfc21] text-xs font-medium text-black text-center p-0.5 leading-none rounded-full">
-                90%
-              </div>
-            </div>
+           
           </div>
+
+          <div className="w-[90px] h-[90px]">
+            <div className="flex justify-center">
+              <img
+                className="w-[50px] h-[50px]"
+                src="/img/techstack/express.png"
+                alt=""
+              />
+            </div>
+            <p className="text-slate-600 dark:text-slate-300 text-base font-semibold text-center mt-4">
+              Express.js
+            </p>
+           
+          </div>
+
+          <div className="w-[90px] h-[90px]">
+            <div className="flex justify-center">
+              <img
+                className="w-[50px] h-[50px]"
+                src="/img/techstack/mysql.png"
+                alt=""
+              />
+            </div>
+            <p className="text-slate-600 dark:text-slate-300 text-base font-semibold text-center mt-4">
+              MySQL
+            </p>
+            
+          </div>
+
           <div className="w-[90px] h-[90px]">
             <div className="flex justify-center">
               <img
@@ -124,14 +134,10 @@ let TechStack = () => {
                 alt=""
               />
             </div>
-            <p className="text-slate-600 dark:text-slate-300 text-xl font-semibold text-center mt-4">
+            <p className="text-slate-600 dark:text-slate-300 text-base font-semibold text-center mt-4">
               Python
             </p>
-            <div className="bg-slate-600 h-4 rounded-full my-2">
-              <div className="w-[90%] bg-[#2cfc21] text-xs font-medium text-black text-center p-0.5 leading-none rounded-full">
-                90%
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>
