@@ -9,6 +9,22 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+.hero {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+
 li {
   cursor: pointer;
 }
@@ -30,6 +46,3 @@ li {
     @apply border-l-4 border-[#2cfc21] pl-2 my-2 font-bold text-black dark:text-white text-xl;
   }
 }
-
-
-

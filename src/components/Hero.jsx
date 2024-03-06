@@ -1,7 +1,7 @@
 let Hero = () => {
   return (
-    <>
-      <div className="bg-zinc-50 dark:bg-slate-900 px-6 pt-28 pb-28 md:pt-32 lg:pt-40 sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
+    <div className="hero">
+      <div className="bg-zinc-50 dark:bg-slate-900 px-6 pt-28 pb-28 md:pt-32 lg:pt-[15%] sm:mx-8 sm:px-16 md:mx-16 lg:mx-20 xl:mx-24 xl:px-20">
         <div className="md:flex">
           <div className="flex justify-center md:hidden">
             <div className="relative h-[290px] w-[240px]  bg-loved rounded-3xl ">
@@ -25,9 +25,9 @@ let Hero = () => {
               A physicist who coded.
             </p>
             <p className="text-xl text-slate-600 dark:text-slate-300 py-2 animate-fade-up animate-once animate-duration-500 animate-delay-500">
-              I love physics and want to be front end developer. I&apos;m
-              dedicated to continuous learning and expanding my insights into
-              various facets of development.
+              I love physics and want to be fullstack developer (frontend and
+              backend). I&apos;m dedicated to continuous learning and expanding
+              my insights into various facets of development.
             </p>
 
             <div className="flex py-4 items-center animate-fade-up animate-once animate-duration-500 animate-delay-700">
@@ -71,7 +71,7 @@ let Hero = () => {
               <a
                 className=""
                 target="blank"
-                href="https://drive.google.com/file/d/1WsTPTmAmSa41WUHqXwJDeiE5eWj6vDnx/view?usp=sharing"
+                href="https://drive.google.com/file/d/1_cBZOhoRmKNK1ppWezU2XgrIE8xEQ6xv/view?usp=sharing"
               >
                 <div className="ml-4 bg-slate-600 dark:bg-slate-300 flex items-center rounded-md px-1 hover:bg-[#2cfc21] dark:hover:bg-[#2cfc21]">
                   <svg
@@ -103,7 +103,7 @@ let Hero = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

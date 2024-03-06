@@ -9,7 +9,7 @@ function HomePage() {
     <>
       <Hero />
       <SelectedProjects />
-      <Writings />
+      {/* <Writings /> */}
       <TechStack />
     </>
   );
